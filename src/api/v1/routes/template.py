@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from fastapi import APIRouter
 
-from src.models.template import TemplatePrompt
+from src.schemas.template import TemplatePrompt
 from src.utils.llm import get_llm_response
 
 router = APIRouter()
